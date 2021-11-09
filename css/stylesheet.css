@@ -15,8 +15,11 @@
    /*Fonts*/
 
    font-family: 'Montserrat', sans-serif;
-  
-
+   
+   --light_300:     300;
+   --regular_400:   400;
+   --medium_500:    500;
+   --semi_bold_600: 600;
 
 }
 
@@ -31,7 +34,12 @@ body{
 .menu{
   display: flex;
   justify-content: space-between;
-  height: fit-content;
-  background-color: yellow;
+  background-color: var(--yellow);
+  width: 100%;
+}
+
+h1{
+  font-weight: var(--semi_bold_600);
+  font-size:  2em;
 }
 

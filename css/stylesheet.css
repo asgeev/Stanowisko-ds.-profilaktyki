@@ -1,3 +1,37 @@
-body{
-  background-color: blue;
+:root{
+  
+  /*Colours*/
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey: #E9EAED;
+  --darkgrey: #656565;
+  --blue: #2D4594;
+  --darkblue: #312783;
+  --yellowlight: #FBD27F;
+  --yellow: #F7A600;
+  --red: #D11A2A;
+ 
+ 
+   /*Fonts*/
+
+   font-family: 'Montserrat', sans-serif;
+  
+
+
 }
+
+
+
+
+body{
+  background-color: var(--white);
+  
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  background-color: yellow;
+}
+

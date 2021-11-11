@@ -11,24 +11,38 @@
         <meta name="description" content="Ewidencja pracy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/stylesheet.css">
-        <link rel="stylesheet" href="css/reset_css.css">
+        <link rel="stylesheet" href="./css/reset_css.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehapppy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="menu">
+        <div class="menu_container">
             <div>
                 <h1>Ewidencja pracy</h1>
             </div>
-            <div>
-                <h2>Button</h2>
+            <div class="hamuburger_container">
+              <button class="hamburger ">
+                  <span class="hamburger__box">
+                    <span class="hamburger__inner"></span>
+                  </span>
+              </button>
             </div>
         </div>
+        <div id="employee_container">
+            <span>Zalogowany pracownik:</span><span id="employees"></span>
+        </div>
+
+
 
 
 

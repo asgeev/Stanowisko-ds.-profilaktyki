@@ -28,9 +28,12 @@ body{
 }
 
 .menu_container{
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  top:0;
+  left: 0;
   background-color: var(--yellow);
   padding: 5px 15px 5px 15px;
   border-radius: 0px 0px 4px 4px;
@@ -113,4 +116,19 @@ h1{
 
 
 
-
+@media screen and (min-width: 1000px) {
+  body{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  .menu_container {
+    position: fixed;
+    width: 352px;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    top: 0;
+    left: 0;
+  }
+}

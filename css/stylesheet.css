@@ -29,6 +29,8 @@ a, button{
 
 body{
   min-width: 500px;
+  width: 100vw;
+  height: 100vh;
 }
 
 
@@ -41,13 +43,15 @@ body{
   top: 0;
   left: 0;
   z-index: 9999;
-  padding-left: 50px;
-  padding-top: 50px;
   display: none;
-  overflow: none;
+  overflow: hidden;
 }
 .menu--active{
   display: block;
+}
+
+.menu__container{
+  padding: 50px 0 0 50px;
 }
 
 nav ul{
@@ -60,6 +64,7 @@ nav li{
 }
 a{
   font-weight: var(--semi_bold_600);
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -67,6 +72,11 @@ a:hover{
   border-right: 2px solid var(--black);
 }
 
+.closeButton{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+} 
 
 
 

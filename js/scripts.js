@@ -1,5 +1,6 @@
 
-const employees = [ "Adam Szymanski", "Łukasz Bondyra"]
+import { employees } from './date.js'
+console.log(employees);    
 
 
 /*Add name employee*/
@@ -17,6 +18,9 @@ const handleClick = () => {
 
 hamburger.addEventListener('click', handleClick);
 /*********************************************** */
+
+
+
 
 const menu = document.querySelector('.menu');
 const hamburger = document.querySelector('.hamburger');

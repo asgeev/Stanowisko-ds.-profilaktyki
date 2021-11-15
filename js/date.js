@@ -1,0 +1,1 @@
+export const employees = [ "Adam Szymanski", "Łukasz Bondyra"]

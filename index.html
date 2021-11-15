@@ -25,13 +25,26 @@
         <!--[if lt IE 7]>
             <p class="browsehapppy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    
-        <div class="menu_container">
+        <div class="menu">
+            <button class="close">X</button>
+            <h1>Menu</h1>
+            <nav>
+            <ul>
+                <li><a href="/">Dodawanie sprawy</a></li>
+                <li><a href="/">Moja statystyka</a></li>
+                <li><a href="/">Kiosk profilaktyczny</a></li>
+                <li><a href="/">Statystyka oddziału</a></li>
+                <li><a href="/">Statystyka centrali</a></li>
+            </ul>
+            </nav>
+        </div>
+
+        <div class="navbar">
             <div>
                 <h1>Ewidencja pracy</h1>
             </div>
             <div class="hamuburger_container">
-              <button class="hamburger ">
+              <button class="hamburger">
                   <span class="hamburger__box">
                     <span class="hamburger__inner"></span>
                   </span>
@@ -42,7 +55,7 @@
         <div id="employee_container">
             <span>Zalogowany pracownik:&nbsp;</span><span id="employees"></span>
         </div>
-       
+    
 
         
         <script src="./js/scripts.js" async defer></script>
